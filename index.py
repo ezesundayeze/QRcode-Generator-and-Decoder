@@ -1,6 +1,7 @@
 # Import QR Code library
 import qrcode
-
+from pyzbar.pyzbar import decode
+from PIL import Image
 
 # Create qr code instance
 qr = qrcode.QRCode(
@@ -27,10 +28,6 @@ img = qr.make_image()
 img.save("image.jpg")
 
 # reading qrcode
-
-
-from pyzbar.pyzbar import decode
-from PIL import Image
 dcode = decode(Image.open('image.jpg'))
 d = str(dcode[0][0])
 lent = len(d)
