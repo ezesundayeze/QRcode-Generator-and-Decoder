@@ -6,4 +6,14 @@ To use this all you need to do is to install the dependencies and
 pip3 install -r requirements.txt
 ```
 
-Make sure you have virtualenv installed and activated before running the above command.
+Make sure you have virtualenv installed
+
+I already created a virtual environment, activate it before running the above command.
+
+Here is the result program
+
+<div style="width:300px; height:100px; margin:0 auto ">
+
+![](image.jpg)
+
+</div>
